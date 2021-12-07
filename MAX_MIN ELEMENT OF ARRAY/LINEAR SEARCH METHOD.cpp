@@ -69,3 +69,7 @@ int main()
     return 0;
 }
  
+//Time Complexity: O(n)
+
+In this method, the total number of comparisons is 1 + 2(n-2) in the worst case and 1 + n – 2 in the best case. 
+In the above implementation, the worst case occurs when elements are sorted in descending order and the best case occurs when elements are sorted in ascending order.
