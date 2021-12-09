@@ -22,8 +22,13 @@ void printLeaders(int arr[], int size)
 /* Driver program to test above function*/
 int main()
 {
-    int arr[] = {16, 17, 4, 3, 5, 2};
-    int n = sizeof(arr)/sizeof(arr[0]);
+    int n;
+    cin>>n;
+    int arr[n];
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
+   
     printLeaders(arr, n);
     return 0;
 }   
